@@ -1,9 +1,16 @@
-import "./App.css";
+import Spline from "@splinetool/react-spline";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <header>
+        <Nav />
+      </header>
+      <div className="h-[750px] max-bp:hidden">
+        <Spline scene="https://prod.spline.design/gp9e7O726tJ2-2Ly/scene.splinecode" />
+      </div>
+      <h1>hey</h1>
     </>
   );
 }
