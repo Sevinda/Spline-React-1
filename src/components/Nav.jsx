@@ -6,7 +6,7 @@ const Nav = () => {
   ];
 
   return (
-    <nav className="flex items-center justify-between h-[70px] px-10">
+    <nav className="flex items-center justify-between h-[70px]">
       <h1 className="text-[30px] font-bold">Scp</h1>
 
       <ul className="flex gap-5">
