@@ -1,6 +1,5 @@
 import Spline from "@splinetool/react-spline";
 import Nav from "./components/Nav";
-import Card from "./components/Card";
 import Notifier from "./components/Notifier";
 
 function App() {
