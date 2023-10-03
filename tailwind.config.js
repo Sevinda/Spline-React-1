@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        bp: "1200px",
+        "bp-sm": "600px",
+        "bp-lg": "1200px",
       },
     },
   },
